@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>SK Group | Premium Corporate Logistics</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,typography,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&amp;family=Playfair+Display:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        navy: "#0a192f",
+                        "corp-teal": "#00838F",
+                        "gold-accent": "#C5A059",
+                        "soft-gray": "#F8FAFC",
+                    },
+                    fontFamily: {
+                        sans: ["'Plus Jakarta Sans'", "sans-serif"],
+                        display: ["'Playfair Display'", "serif"],
+                    },
+                },
+            },
+        };
+    </script>
+<style type="text/tailwindcss">
+        :root {
+            --glass-bg: rgba(255, 255, 255, 0.03);
+            --glass-border: rgba(255, 255, 255, 0.1);
+            --premium-shadow: 0 20px 50px rgba(0, 0, 0, 0.05);
+        }
+        .glassmorphism {
+            background: var(--glass-bg);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid var(--glass-border);
+        }
+        .hero-gradient {
+            background: linear-gradient(to bottom, rgba(10, 25, 47, 0.8), rgba(10, 25, 47, 0.4));
+        }
+        .card-premium {
+            transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+        }
+        .card-premium:hover {
+            transform: translateY(-12px);
+            box-shadow: 0 30px 60px -12px rgba(0, 0, 0, 0.12);
+        }
+        .nav-scrolled {
+            background-color: rgba(255, 255, 255, 0.98);
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+        }
+        .line-accent {
+            position: relative;
+        }
+        .line-accent::after {
+            content: '';
+            position: absolute;
+            bottom: -8px;
+            left: 0;
+            width: 40px;
+            height: 2px;
+            background: var(--gold-accent);
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-white font-sans text-navy">
+<header class="fixed top-0 w-full z-50 transition-all duration-500 bg-white/10 backdrop-blur-sm border-b border-white/10">
+<div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 bg-corp-teal rounded flex items-center justify-center text-white font-black text-xl shadow-lg">SK</div>
+<div>
+<span class="block text-xl font-extrabold tracking-tight leading-none text-white">SK GROUP</span>
+<span class="text-[9px] uppercase tracking-[0.3em] font-bold text-gold-accent">Global Operations</span>
+</div>
+</div>
+<nav class="hidden lg:flex items-center gap-10 text-[13px] font-bold uppercase tracking-widest text-white/80">
+<a class="hover:text-gold-accent transition-colors" href="#">Enterprise</a>
+<a class="hover:text-gold-accent transition-colors" href="#">Logistics</a>
+<a class="hover:text-gold-accent transition-colors" href="#">Governance</a>
+<a class="hover:text-gold-accent transition-colors" href="#">Sustainability</a>
+</nav>
+<div class="flex items-center gap-6">
+<button class="hidden md:block text-white text-sm font-bold border border-white/30 px-6 py-2 rounded hover:bg-white hover:text-navy transition-all">Client Portal</button>
+<button class="bg-corp-teal text-white px-7 py-2.5 rounded text-sm font-bold hover:bg-navy transition-all shadow-xl">Contact Us</button>
+</div>
+</div>
+</header>
+<main>
+<section class="relative h-screen flex items-center justify-center overflow-hidden">
+<div class="absolute inset-0 z-0">
+<img alt="Cargo Ship" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDM_s-Fl9EH1Rk96jHrMm5HsapIVrd8cjHTLWRb-XoNH7wvcNKibe2xUu4Vfp_Vwp81NoJ48U82Iy3VC3_e3OBdKV8NDPuJKfr7r4PuWYNwj7_J7B1O_4QfXiQqKG88TEd4V4jucvZr5AIKsuIbh_YZ34GfvDIMcXPK9mSLBTrdEi26G9yU5VnXxlCkVKQYruyS2YImPLorCH2_Jtk-yI0KFeV78CVcng2zKGokW-KSAp7qOV5wFRSRyGt3ifTZtqSrbpy7qOabc0oV"/>
+<div class="absolute inset-0 hero-gradient"></div>
+</div>
+<div class="relative z-10 max-w-5xl mx-auto px-6 text-center">
+<div class="glassmorphism inline-block px-6 py-2 rounded-full mb-8">
+<span class="text-gold-accent text-xs font-black uppercase tracking-[0.4em]">Excellence in Motion</span>
+</div>
+<h1 class="text-5xl md:text-8xl font-display text-white mb-8 leading-tight">
+                    Shaping the Future <br/> of <span class="italic text-white/90">Global Trade</span>
+</h1>
+<p class="text-lg md:text-xl text-white/70 max-w-2xl mx-auto mb-12 font-light leading-relaxed">
+                    A premier conglomerate delivering world-class logistical infrastructure and trading solutions across the maritime silk road.
+                </p>
+<div class="flex flex-col sm:flex-row items-center justify-center gap-6">
+<button class="bg-corp-teal text-white px-10 py-5 rounded font-bold shadow-2xl hover:scale-105 transition-transform flex items-center gap-3">
+                        EXPLORE DIVISIONS
+                        <span class="material-symbols-outlined">north_east</span>
+</button>
+<button class="glassmorphism text-white px-10 py-5 rounded font-bold hover:bg-white/10 transition-all">
+                        VIEW CORPORATE PROFILE
+                    </button>
+</div>
+</div>
+<div class="absolute bottom-0 left-0 w-full glassmorphism py-8 border-t-0 border-x-0">
+<div class="max-w-7xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8">
+<div class="text-center border-r border-white/10 last:border-0">
+<p class="text-2xl font-bold text-white">40+</p>
+<p class="text-[10px] text-white/50 uppercase tracking-widest mt-1">Vessels Managed</p>
+</div>
+<div class="text-center border-r border-white/10 last:border-0">
+<p class="text-2xl font-bold text-white">12M</p>
+<p class="text-[10px] text-white/50 uppercase tracking-widest mt-1">Annual Tonnage</p>
+</div>
+<div class="text-center border-r border-white/10 last:border-0">
+<p class="text-2xl font-bold text-white">25</p>
+<p class="text-[10px] text-white/50 uppercase tracking-widest mt-1">Years Experience</p>
+</div>
+<div class="text-center">
+<p class="text-2xl font-bold text-white">850+</p>
+<p class="text-[10px] text-white/50 uppercase tracking-widest mt-1">Dedicated Staff</p>
+</div>
+</div>
+</div>
+</section>
+<section class="py-32 bg-soft-gray">
+<div class="max-w-7xl mx-auto px-6">
+<div class="mb-20 text-center">
+<span class="text-corp-teal font-black text-xs uppercase tracking-[0.5em] mb-4 block">Our Portfolio</span>
+<h2 class="text-4xl md:text-5xl font-display text-navy mb-6">Business Enterprises</h2>
+<div class="w-24 h-1 bg-gold-accent mx-auto"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+<div class="card-premium bg-white p-12 flex flex-col items-start border border-slate-100 relative group">
+<div class="mb-10 text-corp-teal">
+<span class="material-symbols-outlined text-5xl font-extralight">directions_boat</span>
+</div>
+<h4 class="text-[10px] font-black uppercase tracking-[0.3em] text-gold-accent mb-3">Maritime Logistics</h4>
+<h3 class="text-2xl font-bold text-navy mb-6 line-accent">K. Shipping &amp; Trading</h3>
+<p class="text-slate-500 text-sm leading-loose mb-10">Strategic vessel management and integrated maritime trade operations facilitating global commerce.</p>
+<button class="mt-auto group-hover:text-corp-teal font-bold text-xs uppercase tracking-widest flex items-center gap-2 transition-all">
+                            Explore Company <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+<div class="card-premium bg-white p-12 flex flex-col items-start border border-slate-100 relative">
+<div class="mb-10 text-corp-teal">
+<span class="material-symbols-outlined text-5xl font-extralight">monitoring</span>
+</div>
+<h4 class="text-[10px] font-black uppercase tracking-[0.3em] text-gold-accent mb-3">Market Strategy</h4>
+<h3 class="text-2xl font-bold text-navy mb-6 line-accent">Sifat Marketing Co.</h3>
+<p class="text-slate-500 text-sm leading-loose mb-10">Specialized distribution networks and consumer branding strategies for emerging markets.</p>
+<button class="mt-auto font-bold text-xs uppercase tracking-widest flex items-center gap-2 text-navy hover:text-corp-teal transition-all">
+                            Explore Company <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+<div class="card-premium bg-white p-12 flex flex-col items-start border border-slate-100 relative">
+<div class="mb-10 text-corp-teal">
+<span class="material-symbols-outlined text-5xl font-extralight">terminal</span>
+</div>
+<h4 class="text-[10px] font-black uppercase tracking-[0.3em] text-gold-accent mb-3">Port Operations</h4>
+<h3 class="text-2xl font-bold text-navy mb-6 line-accent">D.C. Shipping &amp; Trading</h3>
+<p class="text-slate-500 text-sm leading-loose mb-10">Comprehensive clearing and forwarding services at major ports with optimized supply chains.</p>
+<button class="mt-auto font-bold text-xs uppercase tracking-widest flex items-center gap-2 text-navy hover:text-corp-teal transition-all">
+                            Explore Company <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+<div class="card-premium bg-white p-12 flex flex-col items-start border border-slate-100 relative">
+<div class="mb-10 text-corp-teal">
+<span class="material-symbols-outlined text-5xl font-extralight">package_2</span>
+</div>
+<h4 class="text-[10px] font-black uppercase tracking-[0.3em] text-gold-accent mb-3">Bulk Trading</h4>
+<h3 class="text-2xl font-bold text-navy mb-6 line-accent">Rafique Sons</h3>
+<p class="text-slate-500 text-sm leading-loose mb-10">Large-scale bulk supply chain management and specialized government contract procurement.</p>
+<button class="mt-auto font-bold text-xs uppercase tracking-widest flex items-center gap-2 text-navy hover:text-corp-teal transition-all">
+                            Explore Company <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+<div class="card-premium bg-white p-12 flex flex-col items-start border border-slate-100 relative">
+<div class="mb-10 text-corp-teal">
+<span class="material-symbols-outlined text-5xl font-extralight">architecture</span>
+</div>
+<h4 class="text-[10px] font-black uppercase tracking-[0.3em] text-gold-accent mb-3">Industrial Supply</h4>
+<h3 class="text-2xl font-bold text-navy mb-6 line-accent">Dalsabil</h3>
+<p class="text-slate-500 text-sm leading-loose mb-10">Infrastructure development materials and heavy industry logistics for national projects.</p>
+<button class="mt-auto font-bold text-xs uppercase tracking-widest flex items-center gap-2 text-navy hover:text-corp-teal transition-all">
+                            Explore Company <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+<div class="card-premium bg-white p-12 flex flex-col items-start border border-slate-100 relative">
+<div class="mb-10 text-corp-teal">
+<span class="material-symbols-outlined text-5xl font-extralight">set_meal</span>
+</div>
+<h4 class="text-[10px] font-black uppercase tracking-[0.3em] text-gold-accent mb-3">FMCG Division</h4>
+<h3 class="text-2xl font-bold text-navy mb-6 line-accent">Daliya Food</h3>
+<p class="text-slate-500 text-sm leading-loose mb-10">Premium food processing and distribution focusing on quality assurance and food security.</p>
+<button class="mt-auto font-bold text-xs uppercase tracking-widest flex items-center gap-2 text-navy hover:text-corp-teal transition-all">
+                            Explore Company <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+</section>
+<section class="py-32 bg-white border-y border-slate-100 overflow-hidden">
+<div class="max-w-7xl mx-auto px-6">
+<div class="flex flex-col lg:flex-row items-center gap-20">
+<div class="lg:w-1/2 relative">
+<div class="absolute -top-10 -left-10 w-40 h-40 bg-corp-teal/5 rounded-full blur-3xl"></div>
+<div class="relative z-10 p-4 border border-slate-100 bg-white">
+<img alt="Chairman" class="w-full h-[600px] object-cover grayscale hover:grayscale-0 transition-all duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDM_s-Fl9EH1Rk96jHrMm5HsapIVrd8cjHTLWRb-XoNH7wvcNKibe2xUu4Vfp_Vwp81NoJ48U82Iy3VC3_e3OBdKV8NDPuJKfr7r4PuWYNwj7_J7B1O_4QfXiQqKG88TEd4V4jucvZr5AIKsuIbh_YZ34GfvDIMcXPK9mSLBTrdEi26G9yU5VnXxlCkVKQYruyS2YImPLorCH2_Jtk-yI0KFeV78CVcng2zKGokW-KSAp7qOV5wFRSRyGt3ifTZtqSrbpy7qOabc0oV"/>
+</div>
+<div class="absolute -bottom-8 -right-8 w-64 h-64 border-b-2 border-r-2 border-gold-accent"></div>
+</div>
+<div class="lg:w-1/2">
+<span class="text-gold-accent font-black text-xs uppercase tracking-[0.5em] mb-4 block">Executive Leadership</span>
+<h2 class="text-4xl md:text-5xl font-display text-navy mb-8">Visionary Integrity</h2>
+<p class="text-xl font-light italic text-slate-400 mb-10">"We don't just move cargo; we move economies. Our focus remains on ethical expansion and operational excellence."</p>
+<h4 class="text-2xl font-bold text-navy mb-1">Kazi Nurul Hasan</h4>
+<p class="text-corp-teal font-bold text-sm uppercase tracking-widest mb-8">Chairman, SK Group</p>
+<div class="space-y-6 text-slate-600 leading-relaxed mb-12">
+<p>With over three decades of maritime experience, Kazi Nurul Hasan has steered SK Group from a boutique trading house into a diversified multi-sector conglomerate.</p>
+</div>
+<button class="border-b-2 border-gold-accent pb-2 text-navy font-bold tracking-widest text-sm hover:text-corp-teal transition-all">READ CHAIRMAN'S STATEMENT</button>
+</div>
+</div>
+</div>
+</section>
+<section class="py-32 bg-navy text-white overflow-hidden relative">
+<div class="absolute top-0 right-0 w-1/3 h-full bg-corp-teal/10 skew-x-12 translate-x-1/2"></div>
+<div class="max-w-7xl mx-auto px-6 relative z-10">
+<div class="flex flex-col lg:flex-row gap-20">
+<div class="lg:w-1/3">
+<h2 class="text-4xl font-display mb-8">Global <br/> Inquiries</h2>
+<p class="text-white/60 mb-12 leading-loose">Connect with our corporate strategy team for partnership opportunities or enterprise solutions.</p>
+<div class="space-y-10">
+<div class="flex gap-6">
+<span class="material-symbols-outlined text-gold-accent">location_on</span>
+<div>
+<p class="text-xs font-black uppercase tracking-widest mb-2 text-white/40">Headquarters</p>
+<p class="text-sm font-medium">Saber Plaza, Agrabad, <br/>Chattogram, Bangladesh</p>
+</div>
+</div>
+<div class="flex gap-6">
+<span class="material-symbols-outlined text-gold-accent">mail</span>
+<div>
+<p class="text-xs font-black uppercase tracking-widest mb-2 text-white/40">Communications</p>
+<p class="text-sm font-medium">corporate@skgroup-bd.com</p>
+</div>
+</div>
+</div>
+</div>
+<div class="lg:w-2/3 glassmorphism p-10 md:p-16 rounded-sm">
+<form class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<input class="bg-transparent border-b border-white/20 focus:border-gold-accent outline-none py-4 text-xs tracking-widest font-bold" placeholder="FULL NAME" type="text"/>
+<input class="bg-transparent border-b border-white/20 focus:border-gold-accent outline-none py-4 text-xs tracking-widest font-bold" placeholder="EMAIL ADDRESS" type="email"/>
+<div class="md:col-span-2">
+<input class="w-full bg-transparent border-b border-white/20 focus:border-gold-accent outline-none py-4 text-xs tracking-widest font-bold" placeholder="SUBJECT" type="text"/>
+</div>
+<div class="md:col-span-2">
+<textarea class="w-full bg-transparent border-b border-white/20 focus:border-gold-accent outline-none py-4 text-xs tracking-widest font-bold resize-none" placeholder="YOUR MESSAGE" rows="4"></textarea>
+</div>
+<div class="md:col-span-2 flex justify-end">
+<button class="bg-gold-accent text-navy px-12 py-5 font-black text-xs uppercase tracking-[0.3em] hover:bg-white transition-all">Submit Inquiry</button>
+</div>
+</form>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="bg-white py-20 border-t border-slate-100">
+<div class="max-w-7xl mx-auto px-6">
+<div class="flex flex-col md:flex-row justify-between items-center gap-10">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 bg-navy rounded flex items-center justify-center text-white font-black text-sm">SK</div>
+<span class="text-lg font-extrabold text-navy tracking-tight">SK GROUP</span>
+</div>
+<div class="flex gap-10 text-[10px] font-black uppercase tracking-[0.3em] text-slate-400">
+<a class="hover:text-navy transition-colors" href="#">Legal</a>
+<a class="hover:text-navy transition-colors" href="#">Privacy</a>
+<a class="hover:text-navy transition-colors" href="#">Carreers</a>
+</div>
+<p class="text-[10px] font-bold text-slate-400 tracking-widest uppercase">© 2024 SK GROUP HOLDINGS. ALL RIGHTS RESERVED.</p>
+</div>
+</div>
+</footer>
+<div class="md:hidden fixed bottom-6 left-6 right-6 z-50">
+<div class="glassmorphism bg-navy/90 backdrop-blur-xl rounded-full h-16 flex justify-around items-center px-8 border border-white/10 shadow-2xl">
+<a class="text-gold-accent" href="#"><span class="material-symbols-outlined">home</span></a>
+<a class="text-white/50" href="#"><span class="material-symbols-outlined">grid_view</span></a>
+<a class="text-white/50" href="#"><span class="material-symbols-outlined">groups</span></a>
+<a class="text-white/50" href="#"><span class="material-symbols-outlined">mail</span></a>
+</div>
+</div>
+
+</body></html>
