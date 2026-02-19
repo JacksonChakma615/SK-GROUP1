@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Allads</title>
+      <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Icons -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      rel="stylesheet" />
+</head>
+ <body class="bg-gray-200">
+
+  <!-- Navbar -->
+<div class="bg-[#149777] text-white">
+
+  <div class="max-w-6xl mx-auto px-4 py-3 
+              flex justify-between items-center">
+
+    <!-- LEFT SIDE -->
+    <div class="flex items-center gap-4 sm:gap-6">
+
+      <!-- Logo -->
+      <div class="flex items-center gap-2">
+        <img
+          class="w-10 h-10 sm:w-14 sm:h-14 object-contain"
+          src="/img/images.jpg"
+          alt="logo" />
+        <span class="text-xl sm:text-3xl font-bold leading-none">
+          Bikroy
+        </span>
+      </div>
+
+      <!-- All Ads + Language (Hidden on Mobile) -->
+      <div class="hidden md:flex items-center gap-3">
+        <a href="./allads.html" 
+           class="text-sm font-medium hover:underline">
+           All ads
+        </a>
+
+        <span class="text-sm px-3 py-1 rounded 
+                     border border-[#0f766e]">
+          বাংলা
+        </span>
+      </div>
+
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="flex items-center gap-3 sm:gap-6">
+
+      <!-- Desktop Menu -->
+      <div class="hidden md:flex items-center gap-6">
+
+        <a href="#" class="flex items-center gap-1 hover:opacity-80">
+          <i class="fa-regular fa-comments"></i> Chat
+        </a>
+
+        <a href="#" class="flex items-center gap-1 hover:opacity-80">
+          <i class="fa-regular fa-user"></i> Account
+        </a>
+
+      </div>
+
+      <!-- Post Button -->
+      <button
+        class="bg-[#ffc800] text-black 
+               text-sm sm:text-base
+               font-semibold px-3 sm:px-4 py-2 
+               rounded hover:bg-yellow-400 transition">
+        POST FREE AD
+      </button>
+
+      <!-- Hamburger (Mobile Only) -->
+      <button class="md:hidden text-2xl">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+ <div class="max-w-6xl mx-auto mt-6 bg-white rounded-md border  p-9">
+     <!-- Buy, Sell, Rent or Find Anything in Bangladesh -->
+ <div>
+ <div class="bg-[#ffffff] py-6 sm:py-8">
+  <div class="max-w-6xl mx-auto">
+
+    <!-- Top Section -->
+    <div class="flex flex-col lg:flex-row 
+                lg:items-center 
+                lg:justify-between 
+                px-4 sm:px-6 lg:px-8 
+                py-5 gap-5">
+
+      <!-- Left -->
+      <div>
+        <h1 class="text-[18px] sm:text-[20px] 
+                   font-semibold text-[#2d3a3f]">
+          Buy, Sell, Rent or Find Anything in Bangladesh
+        </h1>
+
+        <p class="text-[12px] sm:text-[13px] 
+                  text-gray-500 mt-1">
+          Home › 
+          <span class="text-gray-700">
+            All ads in Bangladesh
+          </span>
+        </p>
+      </div>
+
+      <!-- Search -->
+      <div class="relative w-full lg:w-[460px]">
+
+        <input
+          type="text"
+          placeholder="What are you looking for?"
+          class="w-full border border-gray-300 
+                 rounded-full py-3 pl-5 pr-16
+                 text-[13px] sm:text-[14px] 
+                 text-gray-700
+                 focus:outline-none focus:ring-1 focus:ring-gray-300"
+        />
+
+        <button
+          class="absolute right-2 top-1/2 -translate-y-1/2
+                 bg-[#ffcc00] hover:bg-[#f2c200]
+                 w-10 h-10 sm:w-11 sm:h-11
+                 rounded-full
+                 flex items-center justify-center
+                 shadow-sm">
+          <svg xmlns="http://www.w3.org/2000/svg" 
+               class="h-4 w-4 sm:h-5 sm:w-5 text-black"
+               fill="none" 
+               viewBox="0 0 24 24" 
+               stroke="currentColor" 
+               stroke-width="2">
+            <circle cx="11" cy="11" r="8"/>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+          </svg>
+        </button>
+
+      </div>
+
+    </div>
+
+    <!-- Divider -->
+    <div class="border-t border-gray-200"></div>
+
+    <!-- Filters -->
+    <div class="flex flex-wrap gap-3 
+                px-4 sm:px-6 lg:px-8 
+                py-4 sm:py-5">
+
+      <!-- Refine -->
+      <button class="flex items-center gap-2 
+                     border border-[#16a34a]
+                     text-[#16a34a]
+                     px-4 sm:px-5 py-2
+                     rounded-full text-[13px] sm:text-[14px] bg-white">
+        <i class="fa-solid fa-sliders"></i>
+        Refine
+      </button>
+
+      <!-- All of Bangladesh -->
+      <button class="flex items-center gap-2
+                     border border-gray-300 
+                     px-4 sm:px-5 py-2 
+                     rounded-full text-[13px] sm:text-[14px] 
+                     bg-white text-gray-600">
+        All of Bangladesh
+        <i class="fa-solid fa-chevron-down text-[11px]"></i>
+      </button>
+
+      <!-- Category -->
+      <button class="flex items-center gap-2
+                     border border-gray-300 
+                     px-4 sm:px-5 py-2 
+                     rounded-full text-[13px] sm:text-[14px] 
+                     bg-white text-gray-600">
+        Category
+        <i class="fa-solid fa-chevron-down text-[11px]"></i>
+      </button>
+
+      <!-- Type of poster -->
+      <button class="flex items-center gap-2
+                     border border-gray-300 
+                     px-4 sm:px-5 py-2 
+                     rounded-full text-[13px] sm:text-[14px] 
+                     bg-white text-gray-600">
+        Type of poster
+        <i class="fa-solid fa-chevron-down text-[11px]"></i>
+      </button>
+
+      <!-- Promoted Listings -->
+      <button class="flex items-center gap-2
+                     border border-gray-300 
+                     px-4 sm:px-5 py-2 
+                     rounded-full text-[13px] sm:text-[14px] 
+                     bg-white text-gray-600">
+        Promoted Listings
+        <i class="fa-solid fa-chevron-down text-[11px]"></i>
+      </button>
+
+      <!-- Sort by -->
+      <button class="flex items-center gap-2
+                     border border-gray-300 
+                     px-4 sm:px-5 py-2 
+                     rounded-full text-[13px] sm:text-[14px] 
+                     bg-white text-gray-600">
+        Sort by
+        <i class="fa-solid fa-chevron-down text-[11px]"></i>
+      </button>
+
+    </div>
+
+  </div>
+</div>
+
+
+
+  <!-- All Categories section-->
+   
+  <div class="bg-[#ffffff] py-8">
+    
+  <div class="max-w-6xl mx-auto flex ">
+    
+
+    <!-- LEFT SIDEBAR -->
+    <div class="w-full lg:w-1/4 
+            px-4 lg:px-0 
+            mt-6 lg:mt-0">
+
+  <h2 class="text-base sm:text-lg 
+             text-gray-600 font-semibold 
+             mb-4">
+    All Categories
+  </h2>
+
+  <div class="space-y-3 text-[14px] sm:text-[15px]">
+
+    <a href="#" class="flex items-center gap-3 text-blue-600 hover:underline">
+      <i class="fa-solid fa-mobile-screen text-gray-500 w-4"></i>
+      Mobiles <span class="text-gray-500">(63,617)</span>
+    </a>
+
+    <a href="#" class="flex items-center gap-3 text-blue-600 hover:underline">
+      <i class="fa-solid fa-tv text-gray-500 w-4"></i>
+      Electronics <span class="text-gray-500">(47,667)</span>
+    </a>
+
+    <a href="#" class="flex items-center gap-3 text-blue-600 hover:underline">
+      <i class="fa-solid fa-car text-gray-500 w-4"></i>
+      Vehicles <span class="text-gray-500">(32,253)</span>
+    </a>
+
+    <a href="#" class="flex items-center gap-3 text-blue-600 hover:underline">
+      <i class="fa-solid fa-house text-gray-500 w-4"></i>
+      Property <span class="text-gray-500">(15,679)</span>
+    </a>
+
+    <a href="#" class="flex items-center gap-3 text-blue-600 hover:underline">
+      <i class="fa-solid fa-couch text-gray-500 w-4"></i>
+      Home & Living <span class="text-gray-500">(14,151)</span>
+    </a>
+
+    <a href="#" class="flex items-center gap-3 text-blue-600 hover:underline">
+      <i class="fa-solid fa-paw text-gray-500 w-4"></i>
+      Pets & Animals <span class="text-gray-500">(10,480)</span>
+    </a>
+
+    <a href="#" class="flex items-center gap-3 text-blue-600 hover:underline">
+      <i class="fa-solid fa-shirt text-gray-500 w-4"></i>
+      Men's Fashion & Grooming <span class="text-gray-500">(5,993)</span>
+    </a>
+
+    <a href="#" class="flex items-center gap-3 text-blue-600 hover:underline">
+      <i class="fa-solid fa-futbol text-gray-500 w-4"></i>
+      Hobbies, Sports & Kids <span class="text-gray-500">(5,422)</span>
+    </a>
+
+    <a href="#" class="flex items-center gap-3 text-blue-600 hover:underline">
+      <i class="fa-solid fa-shirt text-gray-500 w-4"></i>
+      Women's Fashion & Beauty <span class="text-gray-500">(4,887)</span>
+    </a>
+
+    <a href="#" class="flex items-center gap-3 text-blue-600 hover:underline">
+      <i class="fa-solid fa-industry text-gray-500 w-4"></i>
+      Business & Industry <span class="text-gray-500">(3,935)</span>
+    </a>
+
+    <a href="#" class="flex items-center gap-3 text-blue-600 hover:underline">
+      <i class="fa-solid fa-graduation-cap text-gray-500 w-4"></i>
+      Education <span class="text-gray-500">(2,768)</span>
+    </a>
+
+    <a href="#" class="flex items-center gap-3 text-blue-600 hover:underline">
+      <i class="fa-solid fa-bag-shopping text-gray-500 w-4"></i>
+      Essentials <span class="text-gray-500">(1,840)</span>
+    </a>
+
+    <a href="#" class="flex items-center gap-3 text-blue-600 hover:underline">
+      <i class="fa-solid fa-briefcase text-gray-500 w-4"></i>
+      Jobs <span class="text-gray-500">(1,662)</span>
+    </a>
+
+    <a href="#" class="flex items-center gap-3 text-blue-600 hover:underline">
+      <i class="fa-solid fa-screwdriver-wrench text-gray-500 w-4"></i>
+      Services <span class="text-gray-500">(613)</span>
+    </a>
+
+    <a href="#" class="flex items-center gap-3 text-blue-600 hover:underline">
+      <i class="fa-solid fa-wheat-awn text-gray-500 w-4"></i>
+      Agriculture <span class="text-gray-500">(539)</span>
+    </a>
+
+    <a href="#" class="flex items-center gap-3 text-blue-600 hover:underline">
+      <i class="fa-solid fa-plane text-gray-500 w-4"></i>
+      Overseas Jobs <span class="text-gray-500">(52)</span>
+    </a>
+
+  </div>
+
+</div>
+
+
+<!-- RIGHT CONTENT -->
+    <div class="w-3/4 space-y-5">
+
+      <!-- TOP INFO -->
+
+  <div class="px-20 py-3 
+            flex items-center justify-between 
+            text-sm">
+
+  <!-- Left -->
+  <span class="text-gray-600">
+    Showing 26-50 of 211,558 ads
+  </span>
+
+  <!-- Right -->
+  <div class="flex items-center gap-2 
+              text-blue-600 cursor-pointer font-medium mr-4">
+    <i class="fa-regular fa-bookmark text-[14px]"></i>
+    <span>Save search</span>
+  </div>
+
+</div>
+
+
+
+<!-- card1  -->
+<div class="bg-[#f3efe9] border border-[#facc15] 
+            rounded-md px-4 py-4 
+            flex flex-col sm:flex-row 
+            gap-4 sm:gap-5
+            w-full max-w-4xl">
+
+  <!-- Image -->
+  <div class="w-full sm:w-[200px] 
+              h-[200px] sm:h-[150px] 
+              flex-shrink-0">
+    <img src="/img/pexels-tracy-le-blanc-67789-607812.jpg"
+         class="w-full h-full object-cover rounded-md">
+  </div>
+
+  <!-- Content -->
+  <div class="flex-1">
+
+    <!-- Title -->
+    <h3 class="text-[16px] sm:text-[18px] 
+               font-semibold text-[#2d3a3f] leading-6">
+      OPPO F15 ৮+৩২GB Display finger (Used)
+    </h3>
+
+    <!-- Member Badge -->
+    <div class="flex items-center gap-2 mt-2">
+      <span class="flex items-center gap-1 
+                   bg-yellow-400 text-white 
+                   text-[11px] sm:text-[12px] 
+                   font-semibold 
+                   px-3 py-[3px] rounded-full">
+        ⭐ MEMBER
+      </span>
+    </div>
+
+    <!-- Location -->
+    <p class="text-[13px] sm:text-[14px] text-gray-600 mt-2">
+      Rajshahi Division, Mobile Phones
+    </p>
+
+    <!-- Price -->
+    <p class="text-[#16a34a] font-semibold 
+              text-[16px] sm:text-[17px] mt-2">
+      Tk 9,243
+    </p>
+  </div>
+
+  <!-- Right Icons -->
+  <div class="flex sm:flex-col 
+              justify-between sm:justify-end 
+              items-center 
+              gap-4 sm:gap-3 
+              sm:h-[150px]">
+
+    <!-- Boost Icon -->
+    <div class="text-yellow-500 text-[22px] sm:text-[24px]">
+      ⬆
+    </div>
+
+    <!-- Red Badge -->
+    <div class="relative">
+      <span class="text-red-500 text-[20px] sm:text-[22px]">📍</span>
+      <span class="absolute -top-1 -right-1 
+                   bg-white text-red-500
+                   text-[10px] w-5 h-5 
+                   flex items-center justify-center 
+                   rounded-full font-semibold">
+        1
+      </span>
+    </div>
+
+  </div>
+
+</div>
+
+
+
+<!-- card2 -->
+<div class="bg-[#f3efe9] border border-[#facc15] 
+            rounded-md px-4 py-4 
+            flex flex-col sm:flex-row 
+            gap-4 sm:gap-5
+            w-full max-w-4xl">
+
+  <!-- Image -->
+  <div class="w-full sm:w-[200px] 
+              h-[200px] sm:h-[150px] 
+              flex-shrink-0">
+    <img src="/img/pexels-tracy-le-blanc-67789-607812.jpg"
+         class="w-full h-full object-cover rounded-md">
+  </div>
+
+  <!-- Content -->
+  <div class="flex-1">
+
+    <!-- Title -->
+    <h3 class="text-[16px] sm:text-[18px] 
+               font-semibold text-[#2d3a3f] leading-6">
+      OPPO F15 ৮+৩২GB Display finger (Used)
+    </h3>
+
+    <!-- Member Badge -->
+    <div class="flex items-center gap-2 mt-2">
+      <span class="flex items-center gap-1 
+                   bg-yellow-400 text-white 
+                   text-[11px] sm:text-[12px] 
+                   font-semibold 
+                   px-3 py-[3px] rounded-full">
+        ⭐ MEMBER
+      </span>
+    </div>
+
+    <!-- Location -->
+    <p class="text-[13px] sm:text-[14px] text-gray-600 mt-2">
+      Rajshahi Division, Mobile Phones
+    </p>
+
+    <!-- Price -->
+    <p class="text-[#16a34a] font-semibold 
+              text-[16px] sm:text-[17px] mt-2">
+      Tk 9,243
+    </p>
+  </div>
+
+  <!-- Right Icons -->
+  <div class="flex sm:flex-col 
+              justify-between sm:justify-end 
+              items-center 
+              gap-4 sm:gap-3 
+              sm:h-[150px]">
+
+    <!-- Boost Icon -->
+    <div class="text-yellow-500 text-[22px] sm:text-[24px]">
+      ⬆
+    </div>
+
+    <!-- Red Badge -->
+    <div class="relative">
+      <span class="text-red-500 text-[20px] sm:text-[22px]">📍</span>
+      <span class="absolute -top-1 -right-1 
+                   bg-white text-red-500
+                   text-[10px] w-5 h-5 
+                   flex items-center justify-center 
+                   rounded-full font-semibold">
+        1
+      </span>
+    </div>
+
+  </div>
+
+</div>
+
+
+
+
+<!-- card3 -->
+<div class="w-full max-w-[820px] mx-auto px-3 sm:px-0">
+
+  <div class="bg-[#f3efe9] border border-[#facc15] 
+              rounded-md overflow-hidden">
+
+    <!-- IMAGE SECTION -->
+    <div class="relative px-3 sm:px-4 pt-4">
+
+      <!-- FEATURED RIBBON -->
+      <span class="absolute top-0 left-0 
+                   bg-[#ff8a00] text-white 
+                   text-[10px] sm:text-[11px] 
+                   font-semibold 
+                   px-3 py-[4px]">
+        FEATURED
+      </span>
+
+      <!-- 3 IMAGE GRID -->
+      <div class="grid grid-cols-3 gap-2 sm:gap-3 mt-5">
+
+        <img src="/img/pexels-tracy-le-blanc-67789-607812.jpg"
+             class="h-[80px] sm:h-[95px] md:h-[105px] 
+                    w-full object-cover rounded">
+
+        <img src="/img/pexels-tracy-le-blanc-67789-607812.jpg"
+             class="h-[80px] sm:h-[95px] md:h-[105px] 
+                    w-full object-cover rounded">
+
+        <!-- +2 OVERLAY -->
+        <div class="relative">
+          <img src="/img/pexels-tracy-le-blanc-67789-607812.jpg"
+               class="h-[80px] sm:h-[95px] md:h-[105px] 
+                      w-full object-cover rounded">
+
+          <div class="absolute inset-0 
+                      bg-black/50 
+                      flex items-center justify-center 
+                      text-white text-[16px] sm:text-[18px] 
+                      font-semibold rounded">
+            +2
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- CONTENT SECTION -->
+    <div class="px-4 sm:px-5 py-4">
+
+      <!-- TITLE -->
+      <h3 class="text-[14px] sm:text-[15.5px] 
+                 font-semibold text-[#2d3a3f] 
+                 leading-[20px]">
+        Xiaomi Redmi Note 7 Pro 6/128 মোবাইল প্লাজা (Brand New)
+      </h3>
+
+      <!-- BADGES -->
+      <div class="flex flex-wrap items-center gap-2 sm:gap-3 mt-2">
+
+        <!-- MEMBER -->
+        <span class="flex items-center gap-1 
+                     bg-[#facc15] text-white 
+                     text-[10px] sm:text-[11px] 
+                     font-semibold 
+                     px-2 py-[3px] rounded-full">
+          ★ MEMBER
+        </span>
+
+        <!-- VERIFIED -->
+        <span class="flex items-center gap-1 
+                     text-[#1d9bf0] 
+                     text-[10px] sm:text-[11px] 
+                     font-semibold">
+          ✔ VERIFIED SELLER
+        </span>
+
+      </div>
+
+      <!-- LOCATION -->
+      <p class="text-[12px] sm:text-[13px] 
+                text-gray-600 mt-1">
+        Dhaka, Mobile Phones
+      </p>
+
+      <!-- PRICE + ICONS -->
+      <div class="flex justify-between items-center mt-3">
+
+        <p class="text-[#009e3f] 
+                  font-semibold 
+                  text-[14px] sm:text-[15px]">
+          Tk 6,290
+        </p>
+
+        <!-- RIGHT ICONS -->
+        <div class="flex items-center gap-2 sm:gap-3">
+
+          <span class="text-[#facc15] text-[16px] sm:text-[18px]">⬆</span>
+
+          <div class="relative">
+            <span class="text-red-500 text-[16px] sm:text-[18px]">📍</span>
+            <span class="absolute -top-1 -right-1 
+                         bg-white text-red-500 
+                         text-[9px] w-4 h-4 
+                         flex items-center justify-center 
+                         rounded-full font-semibold">
+              1
+            </span>
+          </div>
+
+          <span class="text-[#facc15] text-[16px] sm:text-[18px]">👑</span>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+<!-- card4 -->
+<div class="bg-[#f3efe9] border border-[#facc15] 
+            rounded-md px-4 py-4 
+            flex flex-col sm:flex-row 
+            gap-4 sm:gap-5
+            w-full max-w-4xl">
+
+  <!-- Image -->
+  <div class="w-full sm:w-[200px] 
+              h-[200px] sm:h-[150px] 
+              flex-shrink-0">
+    <img src="/img/pexels-tracy-le-blanc-67789-607812.jpg"
+         class="w-full h-full object-cover rounded-md">
+  </div>
+
+  <!-- Content -->
+  <div class="flex-1">
+
+    <!-- Title -->
+    <h3 class="text-[16px] sm:text-[18px] 
+               font-semibold text-[#2d3a3f] leading-6">
+      OPPO F15 ৮+৩২GB Display finger (Used)
+    </h3>
+
+    <!-- Member Badge -->
+    <div class="flex items-center gap-2 mt-2">
+      <span class="flex items-center gap-1 
+                   bg-yellow-400 text-white 
+                   text-[11px] sm:text-[12px] 
+                   font-semibold 
+                   px-3 py-[3px] rounded-full">
+        ⭐ MEMBER
+      </span>
+    </div>
+
+    <!-- Location -->
+    <p class="text-[13px] sm:text-[14px] text-gray-600 mt-2">
+      Rajshahi Division, Mobile Phones
+    </p>
+
+    <!-- Price -->
+    <p class="text-[#16a34a] font-semibold 
+              text-[16px] sm:text-[17px] mt-2">
+      Tk 9,243
+    </p>
+  </div>
+
+  <!-- Right Icons -->
+  <div class="flex sm:flex-col 
+              justify-between sm:justify-end 
+              items-center 
+              gap-4 sm:gap-3 
+              sm:h-[150px]">
+
+    <!-- Boost Icon -->
+    <div class="text-yellow-500 text-[22px] sm:text-[24px]">
+      ⬆
+    </div>
+
+    <!-- Red Badge -->
+    <div class="relative">
+      <span class="text-red-500 text-[20px] sm:text-[22px]">📍</span>
+      <span class="absolute -top-1 -right-1 
+                   bg-white text-red-500
+                   text-[10px] w-5 h-5 
+                   flex items-center justify-center 
+                   rounded-full font-semibold">
+        1
+      </span>
+    </div>
+
+  </div>
+
+</div>
+
+
+<div class="flex items-center justify-center gap-6 mt-10 text-[16px]">
+
+  <!-- Previous -->
+  <button class="flex items-center gap-2 text-blue-600 font-medium">
+    <i class="fa-solid fa-chevron-left text-sm"></i>
+    Previous
+  </button>
+
+  <!-- Page Numbers -->
+  <div class="flex items-center gap-5 text-gray-500">
+
+    <span class="cursor-pointer">1</span>
+
+    <span class="text-black font-semibold">2</span>
+
+    <span class="cursor-pointer">3</span>
+
+    <span class="cursor-pointer">4</span>
+
+    <span class="cursor-pointer">5</span>
+
+    <span>...</span>
+
+  </div>
+
+  <!-- Next -->
+  <button class="flex items-center gap-2 text-blue-600 font-medium">
+    Next
+    <i class="fa-solid fa-chevron-right text-sm"></i>
+  </button>
+
+</div>
+    </div>
+
+  </div>
+</div>
+</div>
+ </div>
+ </div>
+
+
+
+<!-- Electronic Ads  slider  -->
+
+<div class="bg-[#eef1f2] py-12 mt-8">
+
+  <div class="max-w-6xl mx-auto relative px-4">
+
+    <!-- Left Arrow -->
+    <button class="hidden md:flex absolute -left-8 top-1/2 -translate-y-1/2 
+                   bg-white shadow-md 
+                   w-10 h-10 rounded-full 
+                   items-center justify-center 
+                   text-gray-500 hover:text-black transition">
+      <i class="fa-solid fa-chevron-left"></i>
+    </button>
+
+    <!-- Right Arrow -->
+    <button class="hidden md:flex absolute -right-8 top-1/2 -translate-y-1/2 
+                   bg-white shadow-md 
+                   w-10 h-10 rounded-full 
+                   items-center justify-center 
+                   text-gray-500 hover:text-black transition">
+      <i class="fa-solid fa-chevron-right"></i>
+    </button>
+
+    <!-- Responsive Grid -->
+    <div class="grid 
+                grid-cols-1 
+                sm:grid-cols-2 
+                lg:grid-cols-4 
+                gap-10">
+
+      <!-- Column 1 -->
+      <div>
+        <h3 class="text-[20px] font-semibold text-gray-800 mb-4">
+          Electronic Ads
+        </h3>
+        <div class="space-y-2 text-gray-600 text-[15px]">
+          <a href="#" class="block hover:text-black">Mobile Phones in Bangladesh</a>
+          <a href="#" class="block hover:text-black">Cameras in Bangladesh</a>
+          <a href="#" class="block hover:text-black">Laptops in Bangladesh</a>
+          <a href="#" class="block hover:text-black">TVs in Bangladesh</a>
+          <a href="#" class="block hover:text-black">Air Conditioners in Bangladesh</a>
+        </div>
+      </div>
+
+      <!-- Column 2 -->
+      <div>
+        <h3 class="text-[20px] font-semibold text-gray-800 mb-4">
+          Vehicle Ads
+        </h3>
+        <div class="space-y-2 text-gray-600 text-[15px]">
+          <a href="#" class="block hover:text-black">Cars in Bangladesh</a>
+          <a href="#" class="block hover:text-black">Motorbikes in Bangladesh</a>
+          <a href="#" class="block hover:text-black">Bicycles in Bangladesh</a>
+          <a href="#" class="block hover:text-black">Trucks in Bangladesh</a>
+          <a href="#" class="block hover:text-black">Vans in Bangladesh</a>
+        </div>
+      </div>
+
+      <!-- Column 3 -->
+      <div>
+        <h3 class="text-[20px] font-semibold text-gray-800 mb-4">
+          Property Ads
+        </h3>
+        <div class="space-y-2 text-gray-600 text-[15px]">
+          <a href="#" class="block hover:text-black">Houses for Sale in Bangladesh</a>
+          <a href="#" class="block hover:text-black">Lands in Bangladesh</a>
+          <a href="#" class="block hover:text-black">Apartments for Sale in Bangladesh</a>
+          <a href="#" class="block hover:text-black">Commercial Properties for Sale</a>
+          <a href="#" class="block hover:text-black">House Rentals in Bangladesh</a>
+        </div>
+      </div>
+
+      <!-- Column 4 -->
+      <div>
+        <h3 class="text-[20px] font-semibold text-gray-800 mb-4">
+          Trending Ads
+        </h3>
+        <div class="space-y-2 text-gray-600 text-[15px]">
+          <a href="#" class="block hover:text-black">Furniture in Bangladesh</a>
+          <a href="#" class="block hover:text-black">Pets in Bangladesh</a>
+          <a href="#" class="block hover:text-black">Musical Instruments in Bangladesh</a>
+          <a href="#" class="block hover:text-black">Industry Tools in Bangladesh</a>
+          <a href="#" class="block hover:text-black">Watches in Bangladesh</a>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+    <footer class="bg-[#f2f3f5] mt-6 pt-14 pb-8">
+      <div class="max-w-6xl mx-auto px-4">
+        <!-- Top Footer Grid -->
+        <div class="grid md:grid-cols-5 gap-10 text-sm text-gray-700">
+          <!-- Column 1 -->
+          <div>
+            <h3 class="font-semibold text-gray-800 mb-4">More from Bikroy</h3>
+            <ul class="space-y-3">
+              <li><a href="">Sell Fast</a></li>
+              <li><a href="">Membership</a></li>
+              <li><a href="">Banner Ads</a></li>
+              <li><a href="">Boost Ad</a></li>
+            </ul>
+          </div>
+
+          <!-- Column 2 -->
+          <div>
+            <h3 class="font-semibold text-gray-800 mb-4">Help & Support</h3>
+            <ul class="space-y-3">
+              <li><a href="">FAQ</a></li>
+              <li><a href="">Stay safe</a></li>
+              <li><a href="">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <!-- Column 3 -->
+          <div>
+            <h3 class="font-semibold text-gray-800 mb-4">About Bikroy</h3>
+            <ul class="space-y-3">
+              <li><a href="">About Us</a></li>
+              <li><a href="">Careers</a></li>
+              <li><a href="">Terms and Conditions</a></li>
+              <li><a href="">Privacy policy</a></li>
+              <li><a href="">Sitemap</a></li>
+            </ul>
+          </div>
+
+          <!-- Column 4 -->
+          <div>
+            <h3 class="font-semibold text-gray-800 mb-4">Blog & Guides</h3>
+            <ul class="space-y-3">
+              <li><a href="">MotorGuide BD</a></li>
+              <li><a href="">PropertyGuide BD</a></li>
+              <li><a href="">Official Blog</a></li>
+            </ul>
+
+            <!-- Social Icons -->
+            <div class="flex gap-4 mt-4 text-lg">
+              <span
+                ><a href=""><i class="fa-brands fa-facebook"></i></a
+              ></span>
+              <span
+                ><a href=""><i class="fa-brands fa-x-twitter"></i></a
+              ></span>
+              <span
+                ><a href=""><i class="fa-brands fa-tiktok"></i></a
+              ></span>
+              <span
+                ><a href=""><i class="fa-brands fa-youtube"></i></a
+              ></span>
+            </div>
+          </div>
+
+          <!-- Column 5 -->
+          <div>
+            <h3 class="font-semibold text-gray-800 mb-4">Download our app</h3>
+
+            <div class="space-y-3">
+              <a href="">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
+                  class="h-10"
+                  alt="Google Play"
+              /></a>
+              <a href=""
+                ><img
+                  src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+                  class="h-11"
+                  alt="App Store"
+              /></a>
+            </div>
+
+            <h3 class="font-semibold text-2xl text-gray-800 mt-6 mb-2">
+              Other countries
+            </h3>
+
+            <div class="flex items-center gap-2">
+              <img
+                src="https://flagcdn.com/w40/lk.png"
+                class="h-5 w-5 rounded-full"
+                alt="Sri Lanka" />
+              <a href=""><span>Sri Lanka</span></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Divider -->
+        <div
+          class="border-t border-gray-300 mt-10 pt-6 flex flex-col md:flex-row justify-between items-center text-sm text-gray-600">
+          <p>© 2026. All rights reserved. Saltside Technologies</p>
+
+          <div class="mt-4 md:mt-0">
+            <div class="flex items-center gap-2">
+              <img
+                src="./img/images.png"
+                alt="Bikroy Logo"
+                class="h-10 w-auto brightness-1 opacity-70" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
