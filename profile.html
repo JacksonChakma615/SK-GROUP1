@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      rel="stylesheet" />
+    <title>Account</title>
+  </head>
+  <body class="bg-[#ffffff]">
+    <!-- Navbar  section-->
+    <div class="bg-[#0074ba] text-white">
+      <div
+        class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
+        <!-- LEFT SIDE -->
+        <div class="flex items-center gap-4 sm:gap-6">
+          <!-- Logo -->
+          <div class="flex items-center gap-2">
+            <img
+              class="w-10 h-10 sm:w-14 sm:h-14 object-contain"
+              src="/img/images.jpg"
+              alt="logo" />
+            <span class="text-xl sm:text-3xl font-bold leading-none">
+              Bikroy
+            </span>
+          </div>
+
+          <!-- All Ads + Language (Hidden on Mobile) -->
+          <div class="hidden md:flex items-center gap-3">
+            <a href="./allads.html" class="text-sm font-medium hover:underline">
+              Back to Bikroy
+            </a>
+
+            <span class="text-sm px-3 py-1 rounded border border-[#0f766e]">
+              বাংলা
+            </span>
+          </div>
+        </div>
+
+        <!-- RIGHT SIDE -->
+        <div class="flex items-center gap-3 sm:gap-6">
+          <!-- Desktop Menu -->
+          <div class="hidden md:flex items-center gap-6">
+            <a href="#" class="flex items-center gap-1 hover:opacity-80">
+              <i class="fa-regular fa-comments"></i> Chat
+            </a>
+
+            <a href="#" class="flex items-center gap-1 hover:opacity-80">
+              <i class="fa-regular fa-user"></i> Account
+            </a>
+          </div>
+
+          <!-- Post Button -->
+          <button
+            class="bg-[#ffc800] text-black text-sm sm:text-base font-semibold px-3 sm:px-4 py-2 rounded hover:bg-yellow-400 transition">
+            POST FREE AD
+          </button>
+
+          <!-- Hamburger (Mobile Only) -->
+          <button class="md:hidden text-2xl">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Background -->
+    <div class="bg-[#e9eff1] min-h-screen py-16">
+      <div class="max-w-4xl mx-auto">
+        <!-- Breadcrumb -->
+        <p class="text-sm text-gray-600 mb-6">
+          My Account →
+          <span class="font-semibold text-gray-800">My Profile</span>
+        </p>
+
+        <!-- White Card -->
+        <div class="bg-white rounded-lg shadow-sm p-10">
+          <!-- Title -->
+          <h1 class="text-3xl font-semibold mb-8">My Profile</h1>
+
+          <!-- Welcome Section -->
+          <div class="mb-10">
+            <h2 class="font-semibold text-lg mb-2">Welcome</h2>
+            <p class="text-gray-600 leading-relaxed max-w-4xl">
+              Create a free Profile on bikroy to showcase your skills and get
+              your dream job. Make sure to complete your Profile in order to
+              stand out from the crowd; employers like to see details.
+            </p>
+          </div>
+
+          <!-- Basic Information -->
+          <div>
+            <h2 class="text-xl font-semibold mb-2">Basic information</h2>
+            <hr class="mb-8" />
+
+            <div class="flex items-center gap-6">
+              <!-- Avatar -->
+              <div
+                class="w-28 h-28 rounded-full bg-[#4b5f66] flex items-center justify-center text-white text-5xl">
+                J
+              </div>
+
+              <!-- Name -->
+              <div>
+                <h3 class="text-2xl">Jackson Chakma</h3>
+              </div>
+            </div>
+
+            <!-- Button -->
+            <div class="mt-10">
+              <button
+                class="bg-[#1676a8] hover:bg-[#146894] text-white px-16 py-4 rounded-md text-lg shadow">
+                Create Profile
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FOOTER -->
+      <footer class="bg-[#f2f2f2] border-t mt-8 border-t-4 border-blue-700">
+        <div class="max-w-6xl mx-auto px-6 py-12">
+          <!-- ✅ Responsive Grid -->
+          <div
+            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-10 text-sm">
+            <!-- Column 1 -->
+            <div>
+              <h3 class="font-semibold mb-4">Download our app</h3>
+
+              <div class="space-y-3 mb-6">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
+                  class="h-10" />
+                <img
+                  src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+                  class="h-10" />
+              </div>
+
+              <h3 class="font-semibold mb-3">Connect with us</h3>
+
+              <div class="flex items-center gap-3 text-blue-600">
+                <div class="bg-blue-600 text-white px-3 py-2 rounded">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </div>
+                <span>Like us on Facebook</span>
+              </div>
+
+              <h3 class="font-semibold mt-6 mb-2">Other countries</h3>
+              <a href="#" class="text-blue-600 hover:underline">Sri Lanka</a>
+            </div>
+
+            <!-- Column 2 -->
+            <div>
+              <h3 class="font-semibold mb-4">Learn More</h3>
+              <ul class="space-y-2 text-blue-600">
+                <li><a href="#">Sell Fast</a></li>
+                <li><a href="#">Membership</a></li>
+                <li><a href="#">Banner Ads</a></li>
+                <li><a href="#">Ad Promotions</a></li>
+                <li><a href="#">BikesGuide</a></li>
+              </ul>
+            </div>
+
+            <!-- Column 3 -->
+            <div>
+              <h3 class="font-semibold mb-4">Help & Support</h3>
+              <ul class="space-y-2 text-blue-600">
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Stay safe</a></li>
+                <li><a href="#">Contact us</a></li>
+              </ul>
+            </div>
+
+            <!-- Column 4 -->
+            <div>
+              <h3 class="font-semibold mb-4">Social</h3>
+              <ul class="space-y-2 text-blue-600">
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">YouTube</a></li>
+              </ul>
+            </div>
+
+            <!-- Column 5 -->
+            <div>
+              <h3 class="font-semibold mb-4">About us</h3>
+              <ul class="space-y-2 text-blue-600">
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Terms & conditions</a></li>
+                <li><a href="#">Privacy policy</a></li>
+                <li><a href="#">Sitemap</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Bottom Bar -->
+          <div
+            class="border-t border-gray-300 mt-10 pt-6 flex flex-col md:flex-row justify-between items-center text-sm text-gray-600 gap-4">
+            <p class="text-center md:text-left">
+              © 2026. All rights reserved. Saltside Technologies
+            </p>
+
+            <img
+              src="./img/images.png"
+              alt="Bikroy Logo"
+              class="h-8 w-auto opacity-70" />
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

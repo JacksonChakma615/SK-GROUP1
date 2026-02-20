@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      rel="stylesheet" />
+    <title>Account</title>
+  </head>
+  <body class="bg-[#ffffff]">
+    <!-- Navbar  section-->
+    <div class="bg-[#0074ba] text-white">
+      <div
+        class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
+        <!-- LEFT SIDE -->
+        <div class="flex items-center gap-4 sm:gap-6">
+          <!-- Logo -->
+          <div class="flex items-center gap-2">
+            <img
+              class="w-10 h-10 sm:w-14 sm:h-14 object-contain"
+              src="/img/images.jpg"
+              alt="logo" />
+            <span class="text-xl sm:text-3xl font-bold leading-none">
+              Bikroy
+            </span>
+          </div>
+
+          <!-- All Ads + Language (Hidden on Mobile) -->
+          <div class="hidden md:flex items-center gap-3">
+            <a href="./allads.html" class="text-sm font-medium hover:underline">
+              Back to Bikroy
+            </a>
+
+            <span class="text-sm px-3 py-1 rounded border border-[#0f766e]">
+              বাংলা
+            </span>
+          </div>
+        </div>
+
+        <!-- RIGHT SIDE -->
+        <div class="flex items-center gap-3 sm:gap-6">
+          <!-- Desktop Menu -->
+          <div class="hidden md:flex items-center gap-6">
+            <a href="#" class="flex items-center gap-1 hover:opacity-80">
+              <i class="fa-regular fa-comments"></i> Chat
+            </a>
+
+            <a href="#" class="flex items-center gap-1 hover:opacity-80">
+              <i class="fa-regular fa-user"></i> Account
+            </a>
+          </div>
+
+          <!-- Post Button -->
+          <button
+            class="bg-[#ffc800] text-black text-sm sm:text-base font-semibold px-3 sm:px-4 py-2 rounded hover:bg-yellow-400 transition">
+            POST FREE AD
+          </button>
+
+          <!-- Hamburger (Mobile Only) -->
+          <button class="md:hidden text-2xl">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Information  -->
+    <div class="bg-gray-100 min-h-screen py-10 px-4">
+      <div class="max-w-4xl mx-auto bg-white rounded shadow p-6 md:p-10">
+        <!-- Breadcrumb -->
+        <p class="text-sm text-gray-500 mb-4">
+          My Account → My Profile →
+          <span class="font-medium text-gray-700">Basic Information</span>
+        </p>
+
+        <!-- Title -->
+        <h2 class="text-2xl font-semibold mb-2">My Profile</h2>
+        <p class="text-gray-500 mb-6 text-sm">
+          Let's start with adding some details about yourself.
+        </p>
+
+        <!-- Step Indicator -->
+        <div class="mb-8">
+          <div class="flex justify-between text-sm text-gray-400 mb-2">
+            <span class="text-blue-600 font-medium">1</span>
+            <span>2</span>
+            <span>3</span>
+          </div>
+          <div class="w-full h-1 bg-gray-200 rounded">
+            <div class="w-1/3 h-1 bg-blue-600 rounded"></div>
+          </div>
+        </div>
+
+        <!-- Section Title -->
+        <h3 class="font-semibold mb-4 border-b pb-2">Basic information</h3>
+
+        <!-- Profile Image Section -->
+        <div class="flex flex-col md:flex-row md:items-center gap-4 mb-8">
+          <div
+            class="w-16 h-16 rounded-full bg-gray-600 flex items-center justify-center text-white text-xl">
+            J
+          </div>
+          <div>
+            <button
+              class="px-4 py-2 border rounded bg-gray-100 hover:bg-gray-200 text-sm">
+              Change photo
+            </button>
+            <p class="text-xs text-gray-500 mt-1">
+              Supported file formats jpg, jpeg, png
+            </p>
+          </div>
+        </div>
+
+        <!-- Form -->
+        <form class="space-y-4">
+          <!-- Row 1 -->
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <input
+              type="text"
+              placeholder="Name"
+              class="w-full border rounded px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500" />
+            <input
+              type="text"
+              placeholder="Phone"
+              class="w-full border rounded px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500" />
+          </div>
+
+          <!-- Row 2 -->
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <select
+              class="w-full border rounded px-3 py-2 text-sm bg-white focus:ring-2 focus:ring-blue-500">
+              <option>Gender</option>
+            </select>
+            <input
+              type="date"
+              class="w-full border rounded px-3 py-2 text-sm focus:ring-2 focus:ring-blue-500" />
+          </div>
+
+          <!-- Row 3 -->
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <select
+              class="w-full border rounded px-3 py-2 text-sm bg-white focus:ring-2 focus:ring-blue-500">
+              <option>Location</option>
+            </select>
+            <select
+              class="w-full border rounded px-3 py-2 text-sm bg-white focus:ring-2 focus:ring-blue-500">
+              <option>Sublocation</option>
+            </select>
+          </div>
+
+          <!-- Row 4 -->
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <select
+              class="w-full border rounded px-3 py-2 text-sm bg-white focus:ring-2 focus:ring-blue-500">
+              <option>Highest education level</option>
+            </select>
+            <select
+              class="w-full border rounded px-3 py-2 text-sm bg-white focus:ring-2 focus:ring-blue-500">
+              <option>Current job</option>
+            </select>
+          </div>
+
+          <!-- Experience -->
+          <div>
+            <input
+              type="text"
+              placeholder="Total years of work experience"
+              class="w-full border rounded px-3 py-2 text-sm focus:ring-2 focus:ring-blue-500" />
+          </div>
+
+          <!-- Button -->
+          <div class="pt-4">
+            <button
+              class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded shadow text-sm">
+              Continue
+            </button>
+          </div>
+        </form>
+      </div>
+
+      <!-- footer  -->
+
+      <footer class="bg-[#f2f2f2] border-t mt-8 border-t-4 border-blue-700">
+        <div class="max-w-6xl mx-auto px-6 py-12">
+          <!-- ✅ Responsive Grid -->
+          <div
+            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-10 text-sm">
+            <!-- Column 1 -->
+            <div>
+              <h3 class="font-semibold mb-4">Download our app</h3>
+
+              <div class="space-y-3 mb-6">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
+                  class="h-10" />
+                <img
+                  src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+                  class="h-10" />
+              </div>
+
+              <h3 class="font-semibold mb-3">Connect with us</h3>
+
+              <div class="flex items-center gap-3 text-blue-600">
+                <div class="bg-blue-600 text-white px-3 py-2 rounded">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </div>
+                <span>Like us on Facebook</span>
+              </div>
+
+              <h3 class="font-semibold mt-6 mb-2">Other countries</h3>
+              <a href="#" class="text-blue-600 hover:underline">Sri Lanka</a>
+            </div>
+
+            <!-- Column 2 -->
+            <div>
+              <h3 class="font-semibold mb-4">Learn More</h3>
+              <ul class="space-y-2 text-blue-600">
+                <li><a href="#">Sell Fast</a></li>
+                <li><a href="#">Membership</a></li>
+                <li><a href="#">Banner Ads</a></li>
+                <li><a href="#">Ad Promotions</a></li>
+                <li><a href="#">BikesGuide</a></li>
+              </ul>
+            </div>
+
+            <!-- Column 3 -->
+            <div>
+              <h3 class="font-semibold mb-4">Help & Support</h3>
+              <ul class="space-y-2 text-blue-600">
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Stay safe</a></li>
+                <li><a href="#">Contact us</a></li>
+              </ul>
+            </div>
+
+            <!-- Column 4 -->
+            <div>
+              <h3 class="font-semibold mb-4">Social</h3>
+              <ul class="space-y-2 text-blue-600">
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">YouTube</a></li>
+              </ul>
+            </div>
+
+            <!-- Column 5 -->
+            <div>
+              <h3 class="font-semibold mb-4">About us</h3>
+              <ul class="space-y-2 text-blue-600">
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Terms & conditions</a></li>
+                <li><a href="#">Privacy policy</a></li>
+                <li><a href="#">Sitemap</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Bottom Bar -->
+          <div
+            class="border-t border-gray-300 mt-10 pt-6 flex flex-col md:flex-row justify-between items-center text-sm text-gray-600 gap-4">
+            <p class="text-center md:text-left">
+              © 2026. All rights reserved. Saltside Technologies
+            </p>
+
+            <img
+              src="./img/images.png"
+              alt="Bikroy Logo"
+              class="h-8 w-auto opacity-70" />
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
