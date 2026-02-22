@@ -20,43 +20,60 @@
 
     <div class="bg-[#149777] text-white pb-10">
       <!-- Navbar -->
+    <div class="bg-[#149777] text-white">
       <div
-        class="max-w-5xl mx-auto px-4 py-4 flex justify-between items-center">
-        <!-- Logo -->
-        <div class="flex items-center text-2xl font-bold">
-          <!-- <i class="fa-solid fa-bowl-food"></i> -->
+        class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
+        <!-- LEFT SIDE -->
+        <div class="flex items-center gap-4 sm:gap-6">
+          <!-- Logo -->
+          <div class="flex items-center gap-2">
+            <img
+              class="w-10 h-10 sm:w-14 sm:h-14 object-contain"
+              src="/img/images.jpg"
+              alt="logo" />
+            <span class="text-xl sm:text-3xl font-bold leading-none">
+              <a href="/">Bikroy</a>
+            </span>
+          </div>
 
-          <div class="flex items-center gap-6">
-            <div class="flex items-center">
-              <img
-                class="w-14 h-14 object-contain"
-                src="/img/images.jpg"
-                alt="logo" />
-              <span class="text-3xl font-bold leading-none">Bikroy</span>
-            </div>
-            <button>
-              <span class="text-sm"
-                ><a href="./allads.html" class="font-medium">All ads</a></span
-              >
-              <span
-                class="text-sm px-2 py-2 items-center rounded border border-[#007168] text-white"
-                >বাংলা</span
-              >
-            </button>
+          <!-- All Ads + Language (Hidden on Mobile) -->
+          <div class="hidden md:flex items-center gap-3">
+            <a href="./allads.html" class="text-sm font-medium hover:underline">
+              All ads
+            </a>
+
+            <span class="text-sm px-3 py-1 rounded border border-[#0f766e]">
+              বাংলা
+            </span>
           </div>
         </div>
 
-        <!-- Menu -->
-        <div class="flex items-center gap-6">
-          <a href="#"><i class="fa-regular fa-comments"></i> Chat</a>
-          <a href="/acount.html"><i class="fa-regular fa-user"></i> Account</a>
+        <!-- RIGHT SIDE -->
+        <div class="flex items-center gap-3 sm:gap-6">
+          <!-- Desktop Menu -->
+          <div class="hidden md:flex items-center gap-6">
+            <a href="#" class="flex items-center gap-1 hover:opacity-80">
+              <i class="fa-regular fa-comments"></i> Chat
+            </a>
 
-        <a href="/POST-FREE-AD.html"><button
-            class="bg-[#ffc800] text-black font-semibold px-3 py-3 rounded">
+            <a href="#" class="flex items-center gap-1 hover:opacity-80">
+              <i class="fa-regular fa-user"></i> Account
+            </a>
+          </div>
+
+          <!-- Post Button -->
+          <a href="/POST-FREE-AD.html"> <button
+            class="bg-[#ffc800] text-black text-sm sm:text-base font-semibold px-3 sm:px-4 py-2 rounded hover:bg-yellow-400 transition">
             POST FREE AD
           </button></a>
+
+          <!-- Hamburger (Mobile Only) -->
+          <button class="md:hidden text-2xl">
+            <i class="fa-solid fa-bars"></i>
+          </button>
         </div>
       </div>
+    </div>
 
       <!-- Location -->
       <div class="text-center mt-6">
