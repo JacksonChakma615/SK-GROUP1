@@ -1,0 +1,68 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Type of Poster</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-200 flex items-center justify-center min-h-screen p-4">
+
+  <!-- Card -->
+  <div class="bg-white w-full max-w-sm rounded-xl shadow-lg p-6">
+
+    <!-- Title -->
+    <h2 class="text-lg font-semibold text-gray-800 mb-6">
+      Type of Poster
+    </h2>
+
+    <!-- Radio Options -->
+    <div class="space-y-4">
+
+      <label class="flex items-center gap-3 cursor-pointer">
+        <input type="radio" name="poster" checked
+          class="w-4 h-4 text-teal-600 focus:ring-teal-600">
+        <span class="text-gray-700">All posters</span>
+      </label>
+
+      <label class="flex items-center gap-3 cursor-pointer">
+        <input type="radio" name="poster"
+          class="w-4 h-4 text-teal-600 focus:ring-teal-600">
+        <span class="text-gray-700">Members</span>
+      </label>
+
+      <label class="flex items-center gap-3 cursor-pointer">
+        <input type="radio" name="poster"
+          class="w-4 h-4 text-teal-600 focus:ring-teal-600">
+        <span class="text-gray-700">Authorized dealers</span>
+      </label>
+
+      <label class="flex items-center gap-3 cursor-pointer">
+        <input type="radio" name="poster"
+          class="w-4 h-4 text-teal-600 focus:ring-teal-600">
+        <span class="text-gray-700">Non-members</span>
+      </label>
+
+    </div>
+
+    <!-- Divider -->
+    <div class="border-t my-6"></div>
+
+    <!-- Bottom Buttons -->
+    <div class="flex justify-between items-center">
+
+      <button class="px-5 py-2 border border-teal-600 text-teal-600 rounded-md hover:bg-teal-50 transition">
+        Reset
+      </button>
+
+      <button class="px-6 py-2 bg-teal-600 text-white rounded-md hover:bg-teal-700 transition">
+        Loading...
+      </button>
+
+    </div>
+
+  </div>
+
+</body>
+</html>

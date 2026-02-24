@@ -1,0 +1,185 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Select Category</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-300">
+
+<!-- Overlay -->
+<div class=" inset-0 bg-black/40 flex justify-center items-center p-4">
+
+  <!-- Modal -->
+  <div class="bg-white  max-w-4xl rounded shadow-xl flex flex-col overflow-hidden">
+
+    <!-- Content -->
+    <div class="flex">
+
+      <!-- LEFT SIDE -->
+      <div class="w-full md:w-1/2 border-r">
+
+        <div class="p-6">
+          <h2 class="text-lg font-semibold">Select a Category</h2>
+
+          <p class="text-blue-600 mt-4 cursor-pointer">
+            All Categories
+          </p>
+
+          <div class="border-b mt-5 mb-5"></div>
+
+          <div class="divide-y">
+
+            <!-- Item -->
+            <div class="flex items-center justify-between py-3 hover:bg-gray-50 cursor-pointer">
+              <div class="flex items-center gap-3">
+                <span>📱</span>
+                <span>Mobiles</span>
+              </div>
+              <span class="text-gray-400 text-xl">›</span>
+            </div>
+
+            <div class="flex items-center justify-between py-3 hover:bg-gray-50 cursor-pointer text-blue-600">
+              <div class="flex items-center gap-3">
+                <span>💻</span>
+                <span>Electronics</span>
+              </div>
+              <span class="text-gray-400 text-xl">›</span>
+            </div>
+
+            <div class="flex items-center justify-between py-3 hover:bg-gray-50 cursor-pointer">
+              <div class="flex items-center gap-3">
+                <span>🚗</span>
+                <span>Vehicles</span>
+              </div>
+              <span class="text-gray-400 text-xl">›</span>
+            </div>
+
+            <div class="flex items-center justify-between py-3 hover:bg-gray-50 cursor-pointer">
+              <div class="flex items-center gap-3">
+                <span>🏠</span>
+                <span>Property</span>
+              </div>
+              <span class="text-gray-400 text-xl">›</span>
+            </div>
+
+            <div class="flex items-center justify-between py-3 hover:bg-gray-50 cursor-pointer">
+              <div class="flex items-center gap-3">
+                <span>🛋️</span>
+                <span>Home & Living</span>
+              </div>
+              <span class="text-gray-400 text-xl">›</span>
+            </div>
+
+            <div class="flex items-center justify-between py-3 hover:bg-gray-50 cursor-pointer">
+              <div class="flex items-center gap-3">
+                <span>👕</span>
+                <span>Men's Fashion & Grooming</span>
+              </div>
+              <span class="text-gray-400 text-xl">›</span>
+            </div>
+
+            <div class="flex items-center justify-between py-3 hover:bg-gray-50 cursor-pointer">
+              <div class="flex items-center gap-3">
+                <span>👗</span>
+                <span>Women's Fashion & Beauty</span>
+              </div>
+              <span class="text-gray-400 text-xl">›</span>
+            </div>
+
+            <div class="flex items-center justify-between py-3 hover:bg-gray-50 cursor-pointer">
+              <div class="flex items-center gap-3">
+                <span>🐶</span>
+                <span>Pets & Animals</span>
+              </div>
+              <span class="text-gray-400 text-xl">›</span>
+            </div>
+
+            <div class="flex items-center justify-between py-3 hover:bg-gray-50 cursor-pointer">
+              <div class="flex items-center gap-3">
+                <span>⚽</span>
+                <span>Hobbies, Sports & Kids</span>
+              </div>
+              <span class="text-gray-400 text-xl">›</span>
+            </div>
+
+            <div class="flex items-center justify-between py-3 hover:bg-gray-50 cursor-pointer">
+              <div class="flex items-center gap-3">
+                <span>🏭</span>
+                <span>Business & Industry</span>
+              </div>
+              <span class="text-gray-400 text-xl">›</span>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+      <!-- RIGHT SIDE -->
+      <div class="hidden md:flex md:w-1/2 flex-col h-[80vh] overflow-y-auto">
+
+        <!-- Header -->
+        <div class="flex justify-between items-center p-6 border-b sticky top-0 bg-white">
+          <h2 class="text-lg font-semibold">Select a subcategory</h2>
+          <button class="text-gray-500 text-2xl">×</button>
+        </div>
+
+        <!-- Subcategories -->
+        <div class="p-6">
+
+          <p class="text-blue-600 cursor-pointer mb-4">
+            All Mobiles
+          </p>
+
+          <div class="divide-y">
+
+            <div class="flex items-center gap-3 py-3 hover:bg-gray-50 cursor-pointer text-blue-600">
+              📱 <span>Mobile Phones</span>
+            </div>
+
+            <div class="flex items-center gap-3 py-3 hover:bg-gray-50 cursor-pointer">
+              🔌 <span>Mobile Phone Accessories</span>
+            </div>
+
+            <div class="flex items-center gap-3 py-3 hover:bg-gray-50 cursor-pointer text-blue-600">
+              ⌚ <span>Wearables</span>
+            </div>
+
+            <div class="flex items-center gap-3 py-3 hover:bg-gray-50 cursor-pointer text-blue-600">
+              💳 <span>SIM Cards</span>
+            </div>
+
+            <div class="flex items-center gap-3 py-3 hover:bg-gray-50 cursor-pointer text-blue-600">
+              🛠️ <span>Mobile Phone Services</span>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Bottom Bar -->
+    <div class="border-t p-4 flex justify-between items-center bg-white">
+
+      <button class="px-6 py-2 border border-green-600 text-green-600 rounded hover:bg-green-50">
+        Reset
+      </button>
+
+      <button class="px-8 py-2 bg-gray-400 text-white rounded cursor-not-allowed">
+        Loading...
+      </button>
+
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>

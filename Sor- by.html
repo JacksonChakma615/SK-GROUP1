@@ -1,0 +1,60 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sort By</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-200 flex items-center justify-center min-h-screen p-4">
+
+  <!-- Card -->
+  <div class="bg-white w-full max-w-md rounded-2xl shadow-lg p-6">
+
+    <!-- Title -->
+    <h2 class="text-xl font-semibold text-gray-800 mb-6">
+      Sort by
+    </h2>
+
+    <!-- Options -->
+    <div class="space-y-5">
+
+      <label class="flex items-center gap-4 cursor-pointer">
+        <input type="radio" name="sort" checked
+          class="w-5 h-5 text-teal-600 focus:ring-teal-600">
+        <span class="text-gray-700 text-lg">
+          Date: Newest first
+        </span>
+      </label>
+
+      <label class="flex items-center gap-4 cursor-pointer">
+        <input type="radio" name="sort"
+          class="w-5 h-5 text-teal-600 focus:ring-teal-600">
+        <span class="text-gray-700 text-lg">
+          Date: Oldest first
+        </span>
+      </label>
+
+      <label class="flex items-center gap-4 cursor-pointer">
+        <input type="radio" name="sort"
+          class="w-5 h-5 text-teal-600 focus:ring-teal-600">
+        <span class="text-gray-700 text-lg">
+          Price: Highest to Lowest
+        </span>
+      </label>
+
+      <label class="flex items-center gap-4 cursor-pointer">
+        <input type="radio" name="sort"
+          class="w-5 h-5 text-teal-600 focus:ring-teal-600">
+        <span class="text-gray-700 text-lg">
+          Price: Lowest to Highest
+        </span>
+      </label>
+
+    </div>
+
+  </div>
+
+</body>
+</html>

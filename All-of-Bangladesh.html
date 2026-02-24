@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Icons -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      rel="stylesheet" />
+    <title>Document</title>
+</head>
+<body>
+ <div class=" inset-0 bg-black/40 flex justify-center items-center ">
+
+  <!-- Modal Box -->
+  <div class="bg-white w-full max-w-2xl rounded-md shadow-xl flex overflow-hidden">
+
+    <!-- Left Side -->
+    <div class="w-full md:w-1/2 border-r overflow-y-auto p-6">
+
+      <h2 class="text-lg font-semibold mb-4">Select City or Division</h2>
+
+      <p class="text-blue-600 mb-4 cursor-pointer">All of Bangladesh</p>
+
+      <hr class="mb-4">
+
+      <p class="text-gray-500 mb-2">Cities</p>
+
+      <!-- City List -->
+      <div class="space-y-3">
+
+        <div class="flex justify-between items-center py-2 border-b cursor-pointer hover:bg-gray-50">
+          <span>Dhaka</span>
+          <span>›</span>
+        </div>
+
+        <div class="flex justify-between items-center py-2 border-b cursor-pointer hover:bg-gray-50 text-blue-600">
+          <span>Chattogram</span>
+          <span>›</span>
+        </div>
+
+        <div class="flex justify-between items-center py-2 border-b cursor-pointer hover:bg-gray-50">
+          <span>Sylhet</span>
+          <span>›</span>
+        </div>
+
+        <div class="flex justify-between items-center py-2 border-b cursor-pointer hover:bg-gray-50">
+          <span>Khulna</span>
+          <span>›</span>
+        </div>
+
+        <div class="flex justify-between items-center py-2 border-b cursor-pointer hover:bg-gray-50">
+          <span>Barishal</span>
+          <span>›</span>
+        </div>
+
+        <div class="flex justify-between items-center py-2 border-b cursor-pointer hover:bg-gray-50">
+          <span>Rajshahi</span>
+          <span>›</span>
+        </div>
+
+        <div class="flex justify-between items-center py-2 border-b cursor-pointer hover:bg-gray-50">
+          <span>Rangpur</span>
+          <span>›</span>
+        </div>
+
+        <div class="flex justify-between items-center py-2 border-b cursor-pointer hover:bg-gray-50">
+          <span>Mymensingh</span>
+          <span>›</span>
+        </div>
+
+      </div>
+
+      <p class="text-gray-500 mt-6 mb-2">Divisions</p>
+
+      <div class="space-y-3">
+
+        <div class="flex justify-between items-center py-2 border-b cursor-pointer hover:bg-gray-50">
+          <span>Dhaka Division</span>
+          <span>›</span>
+        </div>
+
+        <div class="flex justify-between items-center py-2 border-b cursor-pointer hover:bg-gray-50">
+          <span>Chattogram Division</span>
+          <span>›</span>
+        </div>
+
+        <div class="flex justify-between items-center py-2 border-b cursor-pointer hover:bg-gray-50">
+          <span>Sylhet Division</span>
+          <span>›</span>
+        </div>
+
+        <div class="flex justify-between items-center py-2 border-b cursor-pointer hover:bg-gray-50">
+          <span>Khulna Division</span>
+          <span>›</span>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Right Side -->
+    <div class="hidden md:block w-1/2  h-[80vh]  overflow-y-auto p-6">
+
+      <div class="flex justify-between items-center mb-4">
+        <h2 class="text-lg font-semibold">Select a local area within Dhaka</h2>
+        <button class="text-gray-500 text-xl">×</button>
+      </div>
+
+      <p class="text-gray-500 mb-3">Popular areas</p>
+
+      <div class="space-y-3">
+
+        <div class="py-2 border-b cursor-pointer hover:bg-gray-50">All ads in Dhaka</div>
+        <div class="py-2 border-b cursor-pointer hover:bg-gray-50 text-blue-600">Mirpur</div>
+        <div class="py-2 border-b cursor-pointer hover:bg-gray-50">Uttara</div>
+        <div class="py-2 border-b cursor-pointer hover:bg-gray-50">Mohammadpur</div>
+        <div class="py-2 border-b cursor-pointer hover:bg-gray-50">Savar</div>
+        <div class="py-2 border-b cursor-pointer hover:bg-gray-50">Jatrabari</div>
+
+      </div>
+
+      <!-- Search Other Areas -->
+      <div class="mt-6">
+        <p class="text-gray-500 mb-2">Select other areas (A-Z)</p>
+
+        <div class="relative">
+          <input
+            type="text"
+            placeholder="Select other areas (A-Z)"
+            class="w-full border rounded-md py-2 pl-9 pr-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          />
+          <span class="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400">🔍</span>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+</body>
+</html>
